@@ -19,4 +19,5 @@
 <h3>Add content to file</h3>
 <h3>Add additional content to file</h3>
 <h3>Add content at the beginning of the file</h3>
-
+<h3>Print only first N lines of file</h3>
+<h3>Print only last N lines of file</h3>
