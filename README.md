@@ -14,3 +14,9 @@
 ./FileManager.sh listAll /tmp
 ./FileManager.sh deleteDir /tmp dir3
 
+<h2>Task2</h2>
+<h3>Create a file</h3>
+<h3>Add content to file</h3>
+<h3>Add additional content to file</h3>
+<h3>Add content at the beginning of the file</h3>
+
