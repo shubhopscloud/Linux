@@ -16,11 +16,18 @@ removeDir() {
   rm -rf $directory_name
 }
 
+listContent() {
+  local path="$1"
+  ls -l "$path"
+}
+
 case "$function_name" in 
   "addDir")
   addDir "$path" "$directory_name";;
   "removeDir")
   removeDir "$path" "$directory_name";;	
+  "listContent")
+  listContent "$path";;
 *)
   echo "Nthg executed"
   exit 1;;
