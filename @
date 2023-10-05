@@ -21,16 +21,6 @@ listContent() {
   ls -l "$path"
 }
 
-listFiles() {
-  local path="$1"
-  ls -p "$path" | grep -v /
-}
-
-listDirectories() {
-  local path="$1"
-  ls -p "$path" | grep /
-}
-
 case "$function_name" in 
   "addDir")
   addDir "$path" "$directory_name";;
@@ -38,10 +28,6 @@ case "$function_name" in
   removeDir "$path" "$directory_name";;	
   "listContent")
   listContent "$path";;
-  "listFiles")
-  listFiles "$path";;
-  "listDirectories")
-  listDirectories "$path";;
 *)
   echo "Nthg executed"
   exit 1;;
