@@ -5,3 +5,12 @@
 <h3>List all content</h3>
 <h3>List only files</h3>
 <h3>List only directories</h3>
+
+./FileManager.sh addDir /tmp dir1
+./FileManager.sh addDir /tmp dir2
+./FileManager.sh addDir /tmp dir3
+./FileManager.sh listFiles /tmp
+./FileManager.sh listDirs /tmp
+./FileManager.sh listAll /tmp
+./FileManager.sh deleteDir /tmp dir3
+
