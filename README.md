@@ -21,3 +21,25 @@
 <h3>Add content at the beginning of the file</h3>
 <h3>Print only first N lines of file</h3>
 <h3>Print only last N lines of file</h3>
+<h3>Print content between 2 lines</h3>
+<h3>Print content of specific line</h3>
+<h3>Move file</h3>
+<h3>Copy file</h3>
+<h3>clear file content</h3>
+<h3>delete file</h3>
+
+./FileManager.sh addFile /tmp/dir1 file1.txt
+./FileManager.sh addFile /tmp/dir1 file1.txt "Initial Content"
+./FileManager.sh addContentToFile /tmp/dir1 file1.txt "Additional Content"
+./FileManager.sh addContentToFileBegining /tmp/dir1 file1.txt "Additional Content"
+./FileManager.sh showFileBeginingContent /tmp/dir1 file1.txt 5
+./FileManager.sh showFileEndContent /tmp/dir1 file1.txt 5
+./FileManager.sh showFileContentAtLine /tmp/dir1 file1.txt 10
+./FileManager.sh showFileContentForLineRange /tmp/dir1 file1.txt 5 10
+./FileManager.sh moveFile /tmp/dir1/file1.txt /tmp/dir1/file2.txt
+./FileManager.sh moveFile /tmp/dir1/file2.txt /tmp/dir2/
+./FileManager.sh copyFile /tmp/dir2/file2.txt /tmp/dir1/
+./FileManager.sh copyFile /tmp/dir1/file2.txt /tmp/dir1/file3.txt
+./FileManager.sh clearFileContent /tmp/dir1 file3.txt
+./FileManager.sh deleteFile /tmp/dir1 file2.txt
+
