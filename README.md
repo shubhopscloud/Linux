@@ -43,3 +43,23 @@
 ./FileManager.sh clearFileContent /tmp/dir1 file3.txt
 ./FileManager.sh deleteFile /tmp/dir1 file2.txt
 
+
+<h1>Assignment 2 on User Management</h1>
+
+<h3>addUserToGroup</h3>
+<h3>addGroup</h3>
+<h3>changeUserShell</h3>
+<h3>changeUserPassword</h3>
+<h3>deleteUser</h3>
+<h3>deleteGroup</h3>
+<h3>listUser</h3>
+<h3>listGroup</h3>
+
+./UserManager.sh addGroup team1
+./UserManager.sh addUser Shubham team1
+./UserManager.sh deleteGroup team1
+./UserManager.sh deleteUser Shubham
+./UserManager.sh changePasswd Shubham
+./UserManager.sh changeShell Shubham /bin/bash
+./UserManager.sh listUser
+./UserManager.sh listGroup
