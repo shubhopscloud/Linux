@@ -63,3 +63,13 @@
 ./UserManager.sh changeShell Shubham /bin/bash
 ./UserManager.sh listUser
 ./UserManager.sh listGroup
+
+<h1>Assignment 3 on template Engine</h1>
+<h2>Task 1</h2>
+{{fname}} is trainer of {{topic}}  
+./templateEngine.sh trainer.template fname=sandeep topic=linux
+
+sandeep is trainer of linux 
+
+
+
